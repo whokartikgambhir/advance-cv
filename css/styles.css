@@ -1,0 +1,154 @@
+body{
+    margin:0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color:#40514E;
+}
+
+h1{
+    font-size: 5.625rem;        /* 16px = 100% = 1em */
+    margin: 50px auto 0 auto;               /* top right bottom left */
+    font-family: 'Sacramento', cursive;
+    color: #66BFBF;
+}
+
+h2{
+    font-family: sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    color: #66BFBF;
+    padding-bottom: 10px;
+}
+
+h3{
+    font-family: sans-serif;
+    color: #11999E;
+}
+
+p{
+    line-height: 2;
+}
+
+hr{
+    border: dotted #EAF6F6 6px;     /* top right bottom left */
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;   
+}
+
+a{
+    color: #11999E;
+    font-family: sans-serif;
+    margin: 10px 20px;         /* top/bottom right/left */
+    text-decoration: none;
+}
+
+a:hover{
+color:#EAF6F6;
+}
+
+.top-container{
+    background-color:#e0ebe8;
+    position: relative;
+    padding-top: 100px;
+}
+
+.middle-container{
+    margin: 100px 0;
+
+}
+
+.bottom-container{
+    background-color: #66bfbf;
+    padding: 50px 0 20px;
+
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;       /* top right bottom left */
+    text-align: left;
+    padding-bottom: 2%;
+}
+
+.intro{
+    width: 30%;    /*30% of it's parent container(middle-container)*/
+    margin: auto;
+}
+
+.contact-message{
+    width: 40%;    /*30% of it's parent container(middle-container)*/
+    margin: 40px auto 60px;  /* top left/right bottom*/
+}
+
+.copyright{
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+
+.top-cloud{
+    position:absolute;
+    right: 300px;
+    top: 40px;
+}
+
+.bottom-cloud{
+    position:absolute;
+    left: 250px;
+    bottom: 300px;
+}
+
+.skills-img1{
+    width: 30%;    /* 25% of it's parent(skill row) */
+    float: left;   /* float used for wrapping text around an element, use it only when necessary*/
+    margin-right: 30px;  /* don't use it for positioning, use absolute/relative thou */
+}
+
+.skills-img2{
+    width: 30%;    /* 25% of it's parent(skill row) */
+    float: right;
+    margin-left: 30px;
+}
+
+.skills-img3{
+    width: 30%;    /* 25% of it's parent(skill row) */
+    float: left;   
+    margin-right: 30px;
+}
+
+.footer-link{
+    color: #11999E;
+}
+
+.profile-img{
+    width: 200px;
+    height: 200px;
+}
+
+.btn {
+    background: #13d4ca;
+    background-image: -webkit-linear-gradient(top, #13d4ca, #11189c);
+    background-image: -moz-linear-gradient(top, #13d4ca, #11189c);
+    background-image: -ms-linear-gradient(top, #13d4ca, #11189c);
+    background-image: -o-linear-gradient(top, #13d4ca, #11189c);
+    background-image: linear-gradient(to bottom, #13d4ca, #11189c);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #e33232;
+    background-image: -webkit-linear-gradient(top, #e33232, #8b2dc2);
+    background-image: -moz-linear-gradient(top, #e33232, #8b2dc2);
+    background-image: -ms-linear-gradient(top, #e33232, #8b2dc2);
+    background-image: -o-linear-gradient(top, #e33232, #8b2dc2);
+    background-image: linear-gradient(to bottom, #e33232, #8b2dc2);
+    text-decoration: none;
+  }
